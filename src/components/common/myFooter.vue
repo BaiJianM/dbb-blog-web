@@ -2,7 +2,7 @@
   <div class="myFooter-wrap" v-show="showFooter">
     <div class="myFooter">
       <div class="footer-title">{{$store.state.webInfo.footer}}</div>
-      <div class="icp">本网站由 <a href="https://poetize.cn" target="_blank">Poetize</a> 强力支持</div>
+      <a href="https://beian.mps.gov.cn/#/query/webSearch?code=45012602000092" rel="noreferrer" target="_blank">桂公网安备45012602000092</a>
     </div>
   </div>
 </template>
