@@ -111,7 +111,7 @@
     </div>
 
     <!-- 赞赏 -->
-    <!-- <div class="shadow-box-mini background-opacity wow admire-box"
+    <div class="shadow-box-mini background-opacity wow admire-box"
          v-if="!$common.isEmpty(admires)">
       <div style="font-weight: bold;margin-bottom: 20px">🧨赞赏名单</div>
       <div>
@@ -134,7 +134,7 @@
       <div class="admire-btn" @click="showAdmire()">
         赞赏
       </div>
-    </div> -->
+    </div>
 
     <!-- 微信 -->
     <el-dialog title="赞赏"
