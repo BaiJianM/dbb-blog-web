@@ -111,7 +111,7 @@
     </div>
 
     <!-- 赞赏 -->
-    <div class="shadow-box-mini background-opacity wow admire-box"
+    <!-- <div class="shadow-box-mini background-opacity wow admire-box"
          v-if="!$common.isEmpty(admires)">
       <div style="font-weight: bold;margin-bottom: 20px">🧨赞赏名单</div>
       <div>
@@ -134,10 +134,10 @@
       <div class="admire-btn" @click="showAdmire()">
         赞赏
       </div>
-    </div>
+    </div> -->
 
     <!-- 微信 -->
-    <el-dialog title="赞赏"
+    <!-- <el-dialog title="赞赏"
                :visible.sync="showAdmireDialog"
                width="25%"
                :append-to-body="true"
@@ -150,7 +150,7 @@
           <div class="admire-content">2. 申请通过后会加博客交流群，不需要加群或者退群后会定期清理好友（强迫症福利）</div>
         </div>
       </div>
-    </el-dialog>
+    </el-dialog> -->
   </div>
 </template>
 
@@ -159,7 +159,7 @@
 
   export default {
     components: {
-      vueSeamlessScroll
+      // vueSeamlessScroll
     },
     data() {
       return {

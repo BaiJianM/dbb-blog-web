@@ -1,11 +1,11 @@
 export default {
-  // baseURL: "http://localhost:8081",
-  // imBaseURL: "http://localhost:81",
-  // webURL: "http://localhost",
+  baseURL: "http://localhost:8081",
+  imBaseURL: "http://localhost:81",
+  webURL: "http://localhost",
 
-  baseURL: "https://dabaibai.top/api",
-  imBaseURL: "https://dabaibai.top/im",
-  webURL: "https://dabaibai.top",
+  // baseURL: "https://dabaibai.top/api",
+  // imBaseURL: "https://dabaibai.top/im",
+  // webURL: "https://dabaibai.top",
 
   live2d_path: "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/",
   cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/",
@@ -31,7 +31,7 @@ export default {
   loveWeiYan: "https://s1.ax1x.com/2022/12/04/zsKgDs.jpg",
   loveMessage: "https://s1.ax1x.com/2022/12/04/zsKgDs.jpg",
   lovePhoto: "https://s1.ax1x.com/2022/12/04/zsKh5V.jpg",
-  loveLike: "https://cdn.cbd.int//hexo-butterfly-envelope/lib/violet.jpg",
+  loveLike: "http://s95qk8pho.hn-bkt.clouddn.com/love/%E5%96%9C%E6%AC%A2_%E7%82%B9%E4%BA%AE.svg",
   loveSortId: 1,
   loveLabelId: 1,
 
