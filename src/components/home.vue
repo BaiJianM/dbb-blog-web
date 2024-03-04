@@ -199,10 +199,10 @@
             </div>
           </li>
 
-          <!-- 爱情买卖 -->
+          <!-- 爱情足迹 -->
           <li @click="smallMenu({path: '/love'})">
             <div>
-              💋 <span>爱情买卖</span>
+              💋 <span>爱情足迹</span>
             </div>
           </li>
 
