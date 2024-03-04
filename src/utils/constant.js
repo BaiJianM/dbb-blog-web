@@ -1,11 +1,11 @@
 export default {
-  // baseURL: "http://localhost:8081",
-  // imBaseURL: "http://localhost:81",
-  // webURL: "http://localhost",
+  baseURL: "http://localhost:8081",
+  imBaseURL: "http://localhost:81",
+  webURL: "http://localhost",
 
-  baseURL: "https://dabaibai.top/api",
-  imBaseURL: "https://dabaibai.top/im",
-  webURL: "https://dabaibai.top",
+  // baseURL: "https://dabaibai.top/api",
+  // imBaseURL: "https://dabaibai.top/im",
+  // webURL: "https://dabaibai.top",
 
   live2d_path: "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/",
   cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/",
