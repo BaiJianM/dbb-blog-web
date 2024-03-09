@@ -38,10 +38,10 @@
               <div class="favorite-image"></div>
               <div style="position: absolute;left: 0;top: 0;padding: 20px 25px 15px">
                 <div class="card-name">
-                  曲乐
+                  敬请期待
                 </div>
                 <div class="card-desc">
-                  一曲肝肠断，天涯何处觅知音
+                  敬请期待...
                 </div>
               </div>
             </div>
