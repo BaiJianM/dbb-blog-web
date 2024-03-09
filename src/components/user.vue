@@ -326,7 +326,6 @@
               this.password = "";
               this.$router.push({path: '/'});
               let userToken = this.$common.encrypt(localStorage.getItem("userToken"));
-              window.open(this.$constant.imBaseURL + "?userToken=" + userToken);
             }
           })
           .catch((error) => {

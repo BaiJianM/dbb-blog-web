@@ -59,19 +59,13 @@
               </div>
             </li>
 
-            <!-- 百宝箱 -->
+            <!-- 婷婷专属（工具、娱乐） -->
             <li @click="$router.push({path: '/favorite'})">
               <div class="my-menu">
-                🧰 <span>百宝箱</span>
+                🧰 <span>婷婷专属</span>
               </div>
             </li>
 
-            <!-- 聊天室 -->
-            <li @click="goIm()">
-              <div class="my-menu">
-                💬 <span>非礼勿言</span>
-              </div>
-            </li>
             <!-- 留言 -->
             <li @click="$router.push({path: '/message'})">
               <div class="my-menu">
@@ -220,12 +214,6 @@
             </div>
           </li>
 
-          <!-- 聊天室 -->
-          <li @click="goIm()">
-            <div>
-              💬 <span>非礼勿言</span>
-            </div>
-          </li>
           <!-- 留言 -->
           <li @click="smallMenu({path: '/message'})">
             <div>
@@ -373,18 +361,6 @@
       smallMenuLogout() {
         this.logout();
         this.toolbarDrawer = false;
-      },
-
-      goIm() {
-        if (this.$common.isEmpty(this.$store.state.currentUser)) {
-          this.$message({
-            message: "请先登录！",
-            type: "error"
-          });
-        } else {
-          let userToken = this.$common.encrypt(localStorage.getItem("userToken"));
-          window.open(this.$constant.imBaseURL + "?userToken=" + userToken + "&defaultStoreType=" + localStorage.getItem("defaultStoreType"));
-        }
       },
       logout() {
         this.$http.get(this.$constant.baseURL + "/user/logout")
