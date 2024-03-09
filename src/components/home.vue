@@ -30,6 +30,13 @@
               </div>
             </li>
 
+          <!-- 婷婷专属（工具、娱乐） -->
+            <li @click="$router.push({path: '/favorite'})">
+              <div class="my-menu">
+                🧰 <span>婷婷专属</span>
+              </div>
+            </li>
+
             <el-dropdown :hide-timeout="500" placement="bottom">
               <li>
                 <div class="my-menu">
@@ -56,13 +63,6 @@
             <li @click="$router.push({path: '/travel'})">
               <div class="my-menu">
                 🌏 <span>生活旅拍</span>
-              </div>
-            </li>
-
-            <!-- 婷婷专属（工具、娱乐） -->
-            <li @click="$router.push({path: '/favorite'})">
-              <div class="my-menu">
-                🧰 <span>婷婷专属</span>
               </div>
             </li>
 
