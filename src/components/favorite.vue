@@ -14,7 +14,7 @@
               记录
             </div>
             <div style="font-size: 36px;font-weight: bold;line-height: 2">
-              百宝箱
+              婷婷专属
             </div>
           </div>
           <div class="card-container">

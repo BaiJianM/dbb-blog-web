@@ -178,6 +178,13 @@
               🏡 <span>首页</span>
             </div>
           </li>
+          
+          <!-- 婷婷专属 -->
+          <li @click="smallMenu({path: '/favorite'})">
+            <div>
+              🧰 <span>婷婷专属</span>
+            </div>
+          </li>
 
           <li>
             <div>
@@ -204,13 +211,6 @@
           <li @click="smallMenu({path: '/travel'})">
             <div>
               🌏 <span>旅拍</span>
-            </div>
-          </li>
-
-          <!-- 百宝箱 -->
-          <li @click="smallMenu({path: '/favorite'})">
-            <div>
-              🧰 <span>百宝箱</span>
             </div>
           </li>
 

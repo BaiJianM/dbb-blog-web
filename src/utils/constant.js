@@ -24,7 +24,7 @@ export default {
   friendIntroduction: "这是一个 Vue2 Vue3 与 SpringBoot 结合的产物～",
   friendCover: "https://s1.ax1x.com/2022/11/10/z9VlHs.png",
 
-  favoriteVideo: "$$$$自己找一个视频链接作为百宝箱的封面",
+  favoriteVideo: "$$$$自己找一个视频链接作为的封面",
 
   loveWeiYan: "https://s1.ax1x.com/2022/12/04/zsKgDs.jpg",
   loveMessage: "https://s1.ax1x.com/2022/12/04/zsKgDs.jpg",
